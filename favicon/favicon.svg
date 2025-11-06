@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="48" height="57"><svg width="48" height="57" viewBox="0 0 48 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M44.511 10.3114L35.6867 6.1966L13.1032 24.1251L15.1067 33.6549L44.511 10.3114ZM46.0538 12.2555C47.4987 11.1084 47.2315 8.84147 45.5596 8.06185L36.7352 3.94704C35.8833 3.5498 34.8802 3.66806 34.144 4.25253L11.5605 22.181C10.8243 22.7655 10.4814 23.7158 10.6748 24.6358L13.5044 38.0957L46.0538 12.2555Z" fill="currentColor"></path>
+<path d="M12.6974 52.1664C12.3046 52.4785 11.7624 52.5233 11.3237 52.2799L3.97935 47.3683C3.25333 46.9654 3.12008 45.9769 3.71351 45.3961L11.7579 37.8088C12.4934 37.089 12.5748 38.5105 12.6974 39.5325L15.3362 49.3157C15.3876 49.7434 15.2134 50.1672 14.8761 50.4352L12.6974 52.1664Z" fill="currentColor"></path>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.4889 46.6886L12.3132 50.8034L34.8967 32.8749L32.8933 23.3451L3.4889 46.6886ZM1.94616 44.7445C0.501266 45.8916 0.768402 48.1585 2.44035 48.9382L11.2647 53.053C12.1166 53.4502 13.1198 53.3319 13.856 52.7475L36.4394 34.819C37.1757 34.2345 37.5185 33.2842 37.3251 32.3642L34.4955 18.9043L1.94616 44.7445Z" fill="currentColor"></path>
+</svg><style>
+@media (prefers-color-scheme: light) { :root { filter: none; color: #0E0E0E; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; color: #fff; } }
+</style></svg>
