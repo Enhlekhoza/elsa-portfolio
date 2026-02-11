@@ -548,11 +548,11 @@
                     <span class="badge timeline-badge">2024 – Jan 2026</span>
                   </div>
                   <p class="text-muted mb-2"><em>Siyakha Consulting</em></p>
-                  <p class="mb-0">Built web applications using PHP, Laravel, and WordPress. Managed databases and optimized platforms for performance and user experience.</p>
+                  <p class="mb-0">Developed and maintained scalable web applications and websites using PHP and Laravel. Managed MySQL databases and optimized platforms for performance, security, and user experience.</p>
                   <div class="mt-2">
                     <span class="tech-tag">PHP</span>
                     <span class="tech-tag">Laravel</span>
-                    <span class="tech-tag">WordPress</span>
+                    <span class="tech-tag">MySQL</span>
                   </div>
                 </div>
               </div>
@@ -1242,6 +1242,234 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+
+<!-- Agriconnect Project Section -->
+<section id="agriconnect" class="project-section section">
+
+  <div class="container" data-aos="fade-up">
+    
+    <!-- Project Content -->
+    <div class="row align-items-center">
+      
+      <!-- Left Side - Text Content -->
+      <div class="col-lg-5">
+        <div class="project-content">
+          
+          <h2 class="project-title">Agriconnect</h2>
+
+          <p class="project-description">
+            Digital marketplace connecting farmers with buyers. Farmers can list products, manage profiles, and sell directly to buyers.
+          </p>
+
+          <a href="https://www.figma.com/design/nNqfx5aag7ziZmOZslfuR3/AgriConnect?node-id=0-1&t=FT1oSYT7orRI2z4V-1" target="_blank" class="project-link">
+            View Project on Figma
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Right Side - Screens -->
+      <div class="col-lg-7">
+        <div class="screens-container">
+          
+          <div class="screen-item" data-aos="fade-left" data-aos-delay="100">
+            <div class="screen-frame">
+              <img src="assets/img/app/app-3.png" alt="Welcome Screen">
+            </div>
+          </div>
+
+          <div class="screen-item" data-aos="fade-left" data-aos-delay="150">
+            <div class="screen-frame">
+              <img src="assets/img/app/app-1.png" alt="Listing Screen">
+            </div>
+          </div>
+
+          <div class="screen-item" data-aos="fade-left" data-aos-delay="200">
+            <div class="screen-frame">
+              <img src="assets/img/app/app-2.png" alt="Profile Screen">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<style>
+#agriconnect.project-section {
+  padding: 60px 0;
+  background: white;
+}
+
+#agriconnect .project-content {
+  padding-right: 30px;
+}
+
+#agriconnect .project-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2e7d32;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+#agriconnect .project-description {
+  font-size: 1rem;
+  color: #495057;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+#agriconnect .project-link {
+  display: inline-block;
+  background: #2e7d32;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  border: 1px solid #2e7d32;
+}
+
+#agriconnect .project-link:hover {
+  background: transparent;
+  color: #2e7d32;
+  transform: translateY(-2px);
+}
+
+/* Screens Container - Compact Layout */
+#agriconnect .screens-container {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  height: 320px;
+  position: relative;
+}
+
+#agriconnect .screen-item {
+  width: 180px;
+  transition: transform 0.3s ease;
+}
+
+#agriconnect .screen-item:hover {
+  transform: translateY(-5px);
+}
+
+#agriconnect .screen-frame {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+#agriconnect .screen-item:hover .screen-frame {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+#agriconnect .screen-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Stagger the screens */
+#agriconnect .screen-item:nth-child(1) {
+  margin-top: 20px;
+  height: 280px;
+}
+
+#agriconnect .screen-item:nth-child(2) {
+  margin-top: 40px;
+  height: 300px;
+}
+
+#agriconnect .screen-item:nth-child(3) {
+  margin-top: 10px;
+  height: 290px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  #agriconnect .project-content {
+    padding-right: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #agriconnect .screens-container {
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  #agriconnect .screen-item {
+    width: 200px;
+    height: 350px;
+  }
+  
+  #agriconnect .screen-item:nth-child(1),
+  #agriconnect .screen-item:nth-child(2),
+  #agriconnect .screen-item:nth-child(3) {
+    margin-top: 0;
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  #agriconnect.project-section {
+    padding: 50px 0;
+  }
+  
+  #agriconnect .project-title {
+    font-size: 1.8rem;
+  }
+  
+  #agriconnect .screens-container {
+    gap: 15px;
+  }
+  
+  #agriconnect .screen-item {
+    width: 180px;
+    height: 320px;
+  }
+  
+  #agriconnect .screen-item:nth-child(1),
+  #agriconnect .screen-item:nth-child(2),
+  #agriconnect .screen-item:nth-child(3) {
+    height: 320px;
+  }
+}
+
+@media (max-width: 576px) {
+  #agriconnect .screens-container {
+    gap: 12px;
+  }
+  
+  #agriconnect .screen-item {
+    width: 150px;
+    height: 280px;
+  }
+  
+  #agriconnect .screen-item:nth-child(1),
+  #agriconnect .screen-item:nth-child(2),
+  #agriconnect .screen-item:nth-child(3) {
+    height: 280px;
+  }
+}
+</style>
+
 <!-- SupplyGuard Project Section -->
 <section id="supplyguard" class="project-section section">
 
@@ -1470,232 +1698,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </style>
 
 
-<!-- Agriconnect Project Section -->
-<section id="agriconnect" class="project-section section">
-
-  <div class="container" data-aos="fade-up">
-    
-    <!-- Project Content -->
-    <div class="row align-items-center">
-      
-      <!-- Left Side - Text Content -->
-      <div class="col-lg-5">
-        <div class="project-content">
-          
-          <h2 class="project-title">Agriconnect</h2>
-
-          <p class="project-description">
-            Digital marketplace connecting farmers with buyers. Farmers can list products, manage profiles, and sell directly to buyers.
-          </p>
-
-          <a href="https://www.figma.com/design/nNqfx5aag7ziZmOZslfuR3/AgriConnect?node-id=0-1&t=FT1oSYT7orRI2z4V-1" target="_blank" class="project-link">
-            View Project on Figma
-          </a>
-
-        </div>
-      </div>
-
-      <!-- Right Side - Screens -->
-      <div class="col-lg-7">
-        <div class="screens-container">
-          
-          <div class="screen-item" data-aos="fade-left" data-aos-delay="100">
-            <div class="screen-frame">
-              <img src="assets/img/app/app-3.png" alt="Welcome Screen">
-            </div>
-          </div>
-
-          <div class="screen-item" data-aos="fade-left" data-aos-delay="150">
-            <div class="screen-frame">
-              <img src="assets/img/app/app-1.png" alt="Listing Screen">
-            </div>
-          </div>
-
-          <div class="screen-item" data-aos="fade-left" data-aos-delay="200">
-            <div class="screen-frame">
-              <img src="assets/img/app/app-2.png" alt="Profile Screen">
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<style>
-#agriconnect.project-section {
-  padding: 60px 0;
-  background: white;
-}
-
-#agriconnect .project-content {
-  padding-right: 30px;
-}
-
-#agriconnect .project-title {
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: #2e7d32;
-  margin-bottom: 15px;
-  line-height: 1.2;
-}
-
-#agriconnect .project-description {
-  font-size: 1rem;
-  color: #495057;
-  line-height: 1.5;
-  margin-bottom: 25px;
-}
-
-#agriconnect .project-link {
-  display: inline-block;
-  background: #2e7d32;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 0.9rem;
-  transition: all 0.2s ease;
-  border: 1px solid #2e7d32;
-}
-
-#agriconnect .project-link:hover {
-  background: transparent;
-  color: #2e7d32;
-  transform: translateY(-2px);
-}
-
-/* Screens Container - Compact Layout */
-#agriconnect .screens-container {
-  display: flex;
-  gap: 15px;
-  justify-content: flex-end;
-  height: 320px;
-  position: relative;
-}
-
-#agriconnect .screen-item {
-  width: 180px;
-  transition: transform 0.3s ease;
-}
-
-#agriconnect .screen-item:hover {
-  transform: translateY(-5px);
-}
-
-#agriconnect .screen-frame {
-  width: 100%;
-  height: 100%;
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
-  border: 1px solid #e5e7eb;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
-}
-
-#agriconnect .screen-item:hover .screen-frame {
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
-}
-
-#agriconnect .screen-frame img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-/* Stagger the screens */
-#agriconnect .screen-item:nth-child(1) {
-  margin-top: 20px;
-  height: 280px;
-}
-
-#agriconnect .screen-item:nth-child(2) {
-  margin-top: 40px;
-  height: 300px;
-}
-
-#agriconnect .screen-item:nth-child(3) {
-  margin-top: 10px;
-  height: 290px;
-}
-
-/* Responsive Design */
-@media (max-width: 992px) {
-  #agriconnect .project-content {
-    padding-right: 0;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  #agriconnect .screens-container {
-    justify-content: center;
-    height: auto;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  #agriconnect .screen-item {
-    width: 200px;
-    height: 350px;
-  }
-  
-  #agriconnect .screen-item:nth-child(1),
-  #agriconnect .screen-item:nth-child(2),
-  #agriconnect .screen-item:nth-child(3) {
-    margin-top: 0;
-    height: 350px;
-  }
-}
-
-@media (max-width: 768px) {
-  #agriconnect.project-section {
-    padding: 50px 0;
-  }
-  
-  #agriconnect .project-title {
-    font-size: 1.8rem;
-  }
-  
-  #agriconnect .screens-container {
-    gap: 15px;
-  }
-  
-  #agriconnect .screen-item {
-    width: 180px;
-    height: 320px;
-  }
-  
-  #agriconnect .screen-item:nth-child(1),
-  #agriconnect .screen-item:nth-child(2),
-  #agriconnect .screen-item:nth-child(3) {
-    height: 320px;
-  }
-}
-
-@media (max-width: 576px) {
-  #agriconnect .screens-container {
-    gap: 12px;
-  }
-  
-  #agriconnect .screen-item {
-    width: 150px;
-    height: 280px;
-  }
-  
-  #agriconnect .screen-item:nth-child(1),
-  #agriconnect .screen-item:nth-child(2),
-  #agriconnect .screen-item:nth-child(3) {
-    height: 280px;
-  }
-}
-</style>
 
 <!-- EcoLearn AI Project Section -->
 <section id="ecolearn" class="project-section section">
@@ -1927,6 +1929,293 @@ document.addEventListener('DOMContentLoaded', function() {
 </style>
 
 
+<!-- Social Media Portfolio Section -->
+<section id="socialfolio" class="socialfolio section">
+
+  <div class="container" data-aos="fade-up">
+    
+    <div class="row align-items-center">
+      
+      <!-- Left Side - Text Content (35-40%) -->
+      <div class="col-lg-4">
+        <div class="socialfolio-content">
+          
+          <!-- Title moved up since Portfolio heading is removed -->
+          <h2 class="socialfolio-title">
+            <span class="line1">SOCIAL</span><br>
+            <span class="line2">MEDIA</span>
+          </h2>
+
+          <!-- Description Paragraph -->
+          <p class="socialfolio-description">
+            Creating engaging visual content for various platforms, I've designed social media graphics, marketing materials, and promotional assets that drive engagement and brand awareness.
+          </p>
+
+          <!-- Footer Text -->
+          <div class="socialfolio-footer">
+            <span class="date-range">Date: 2021 – 2026</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right Side - Social Media Grid (60-65%) -->
+      <div class="col-lg-8">
+        <div class="social-grid">
+          
+          <!-- Row 1 -->
+          <div class="social-item" data-aos="zoom-in" data-aos-delay="100">
+            <div class="social-container">
+              <img src="assets/img/flyers/carwash.png" alt="Car Wash Promotion" class="social-img">
+              <div class="social-overlay">
+                <span class="social-category">Marketing Flyer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-item" data-aos="zoom-in" data-aos-delay="150">
+            <div class="social-container">
+              <img src="assets/img/flyers/marketing.png" alt="Marketing Campaign" class="social-img">
+              <div class="social-overlay">
+                <span class="social-category">Campaign Graphic</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-item" data-aos="zoom-in" data-aos-delay="200">
+            <div class="social-container">
+              <img src="assets/img/flyers/smme (3).png" alt="SMME Business" class="social-img">
+              <div class="social-overlay">
+                <span class="social-category">Business Promotion</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="social-item" data-aos="zoom-in" data-aos-delay="250">
+            <div class="social-container">
+              <img src="assets/img/flyers/bakery.png" alt="Bakery Promotion" class="social-img">
+              <div class="social-overlay">
+                <span class="social-category">Product Promotion</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-item" data-aos="zoom-in" data-aos-delay="300">
+            <div class="social-container">
+              <img src="assets/img/flyers/vibes.png" alt="Vibes Event" class="social-img">
+              <div class="social-overlay">
+                <span class="social-category">Event Promotion</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-item" data-aos="zoom-in" data-aos-delay="350">
+            <div class="social-container">
+              <img src="assets/img/flyers/Black Friday Posters (4).jpeg" alt="Black Friday Sale" class="social-img">
+              <div class="social-overlay">
+                <span class="social-category">Sale Promotion</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- /Social Media Portfolio Section -->
+
+<style>
+.socialfolio {
+  background: #f8f9fa;
+  padding: 80px 0;
+}
+
+/* Left Side Styles */
+.socialfolio-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 40px;
+}
+
+/* Title adjustments to fill the space */
+.socialfolio-title {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 30px;
+  line-height: 1;
+  margin-top: -10px; /* Compensates for removed heading */
+}
+
+.socialfolio-description {
+  font-size: 1.1rem;
+  color: #495057;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.socialfolio-footer {
+  margin-top: auto;
+}
+
+.date-range {
+  font-size: 0.9rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+/* Right Side - Social Media Grid */
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  position: relative;
+}
+
+.social-item {
+  aspect-ratio: 1/1.25; /* Better for social media/portrait orientation */
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.social-container {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Grid Lines - Modified for social media */
+.social-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px dashed #dee2e6;
+  border-radius: 12px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.social-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.social-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.5s ease;
+}
+
+.social-container:hover .social-img {
+  transform: scale(1.08);
+}
+
+/* Overlay for category text */
+.social-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  padding: 20px 15px 10px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.social-container:hover .social-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.social-category {
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .social-grid {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .socialfolio-content {
+    padding-right: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .socialfolio-title {
+    font-size: 3rem;
+    margin-top: 0;
+  }
+  
+  .social-grid {
+    gap: 20px;
+  }
+  
+  .social-item {
+    aspect-ratio: 1/1.2;
+  }
+}
+
+@media (max-width: 768px) {
+  .social-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .socialfolio-title {
+    font-size: 2.5rem;
+  }
+  
+  .social-item {
+    aspect-ratio: 1/1.15;
+  }
+}
+
+@media (max-width: 576px) {
+  .social-grid {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  .social-item {
+    aspect-ratio: 1/1.1;
+  }
+}
+</style>
+
+
 <!-- Logofolio Section -->
 <section id="logofolio" class="logofolio section">
 
@@ -1938,10 +2227,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="col-lg-4">
         <div class="logofolio-content">
           
-          <!-- Small Heading / Label -->
-          <div class="section-label">
-            <span>Portfolio</span>
-          </div>
+    
 
         <h2 class="logofolio-title">
         <span class="line1">LOGO</span><br>
@@ -1955,7 +2241,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
           <!-- Footer Text -->
           <div class="logofolio-footer">
-            <span class="date-range">Date: 2021 – 2025</span>
+            <span class="date-range">Date: 2021 – 2026</span>
           </div>
 
         </div>
