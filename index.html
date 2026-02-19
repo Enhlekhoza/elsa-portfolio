@@ -1470,6 +1470,246 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 </style>
 
+<!-- Curl Coast Salon Section -->
+<section id="curl-coast-salon" class="project-section section">
+
+  <div class="container" data-aos="fade-up">
+    
+    <!-- Project Content -->
+    <div class="row align-items-center">
+      
+      <!-- Left Side - Text Content -->
+      <div class="col-lg-5">
+        <div class="project-content">
+          
+          <h2 class="project-title">Curl Coast Salon</h2>
+
+          <p class="project-description">
+            A responsive salon booking interface that allows users to select services, choose appointment dates and times, and confirm bookings. Built with Vanilla JavaScript to handle dynamic UI updates and state management.
+          </p>
+
+          <a href="#" target="_blank" class="project-link">
+            View Live Demo
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Right Side - Screens -->
+      <div class="col-lg-7">
+        <div class="screens-container">
+          
+          <div class="screen-item" data-aos="fade-left" data-aos-delay="100">
+            <div class="screen-frame">
+              <img src="assets/img/app/screen1.png" alt="Service Selection Screen">
+            </div>
+          </div>
+
+          <div class="screen-item" data-aos="fade-left" data-aos-delay="150">
+            <div class="screen-frame">
+              <img src="assets/img/app/screen2.png" alt="Appointment Booking Screen">
+            </div>
+          </div>
+
+          <div class="screen-item" data-aos="fade-left" data-aos-delay="200">
+            <div class="screen-frame">
+              <img src="assets/img/app/screen3.png" alt="Booking Confirmation Screen">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<style>
+#curl-coast-salon.project-section {
+  padding: 60px 0;
+  background: #f9f3e7; /* Cream Beige */
+}
+
+#curl-coast-salon .project-content {
+  padding-right: 30px;
+}
+
+#curl-coast-salon .project-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #4f3529; /* Mocha Brown */
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+#curl-coast-salon .project-description {
+  font-size: 1rem;
+  color: #4f3529; /* Mocha Brown */
+  line-height: 1.6;
+  margin-bottom: 25px;
+  opacity: 0.8;
+}
+
+#curl-coast-salon .project-link {
+  display: inline-block;
+  background: #b87b5d; /* Soft Terracotta */
+  color: #f9f3e7; /* Cream Beige */
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  border: 1px solid #b87b5d;
+  letter-spacing: 0.5px;
+}
+
+#curl-coast-salon .project-link:hover {
+  background: #4f3529; /* Mocha Brown */
+  border-color: #4f3529;
+  color: #f9f3e7;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(79, 53, 41, 0.2);
+}
+
+/* Screens Container - Compact Layout */
+#curl-coast-salon .screens-container {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  height: 320px;
+  position: relative;
+}
+
+#curl-coast-salon .screen-item {
+  width: 180px;
+  transition: transform 0.3s ease;
+}
+
+#curl-coast-salon .screen-item:hover {
+  transform: translateY(-5px);
+}
+
+#curl-coast-salon .screen-frame {
+  width: 100%;
+  height: 100%;
+  background: #ecd7c7; /* Blush Sand */
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #ffe9d6; /* Peach Nude */
+  box-shadow: 0 5px 15px rgba(184, 123, 93, 0.15);
+  transition: all 0.3s ease;
+}
+
+#curl-coast-salon .screen-item:hover .screen-frame {
+  box-shadow: 0 10px 25px rgba(184, 123, 93, 0.25);
+}
+
+#curl-coast-salon .screen-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Stagger the screens */
+#curl-coast-salon .screen-item:nth-child(1) {
+  margin-top: 20px;
+  height: 280px;
+}
+
+#curl-coast-salon .screen-item:nth-child(2) {
+  margin-top: 40px;
+  height: 300px;
+}
+
+#curl-coast-salon .screen-item:nth-child(3) {
+  margin-top: 10px;
+  height: 290px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  #curl-coast-salon .project-content {
+    padding-right: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #curl-coast-salon .screens-container {
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  #curl-coast-salon .screen-item {
+    width: 200px;
+    height: 350px;
+  }
+  
+  #curl-coast-salon .screen-item:nth-child(1),
+  #curl-coast-salon .screen-item:nth-child(2),
+  #curl-coast-salon .screen-item:nth-child(3) {
+    margin-top: 0;
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  #curl-coast-salon.project-section {
+    padding: 50px 0;
+  }
+  
+  #curl-coast-salon .project-title {
+    font-size: 1.8rem;
+  }
+  
+  #curl-coast-salon .project-description {
+    font-size: 0.95rem;
+  }
+  
+  #curl-coast-salon .screens-container {
+    gap: 15px;
+  }
+  
+  #curl-coast-salon .screen-item {
+    width: 180px;
+    height: 320px;
+  }
+  
+  #curl-coast-salon .screen-item:nth-child(1),
+  #curl-coast-salon .screen-item:nth-child(2),
+  #curl-coast-salon .screen-item:nth-child(3) {
+    height: 320px;
+  }
+}
+
+@media (max-width: 576px) {
+  #curl-coast-salon .screens-container {
+    gap: 12px;
+  }
+  
+  #curl-coast-salon .screen-item {
+    width: 150px;
+    height: 280px;
+  }
+  
+  #curl-coast-salon .screen-item:nth-child(1),
+  #curl-coast-salon .screen-item:nth-child(2),
+  #curl-coast-salon .screen-item:nth-child(3) {
+    height: 280px;
+  }
+  
+  #curl-coast-salon .project-link {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+</style>
+
 <!-- SupplyGuard Project Section -->
 <section id="supplyguard" class="project-section section">
 
