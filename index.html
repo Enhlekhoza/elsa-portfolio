@@ -1470,6 +1470,384 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 </style>
 
+
+
+<!-- Task Flow Project Section -->
+<section id="taskflow" class="project-section section">
+
+  <div class="container" data-aos="fade-up">
+    
+    <!-- Project Content -->
+    <div class="row align-items-center">
+      
+      <!-- Left Side - Text Content -->
+      <div class="col-lg-5">
+        <div class="project-content">
+          
+          <h2 class="project-title">Task Flow</h2>
+
+          <p class="project-description">
+            Task flow management app designed for seamless productivity and visual organization.
+          </p>
+
+          <a href="https://github.com/Enhlekhoza/Task-Flow" target="_blank" class="project-link">
+            View on GitHub
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Right Side - Screens -->
+      <div class="col-lg-7">
+        <div class="screens-container">
+          
+          <div class="screen-item" data-aos="fade-left" data-aos-delay="100">
+            <div class="screen-frame">
+              <img src="assets/img/taskflow/task 1.png" alt="Task Board View">
+            </div>
+          </div>
+
+          <div class="screen-item" data-aos="fade-left" data-aos-delay="150">
+            <div class="screen-frame">
+              <img src="assets/img/taskflow/task 2.png" alt="Task Creation Modal">
+            </div>
+          </div>
+
+          <div class="screen-item" data-aos="fade-left" data-aos-delay="200">
+            <div class="screen-frame">
+              <img src="assets/img/taskflow/task 3.png" alt="Task Management">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<style>
+#taskflow.project-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Optional decorative elements */
+#taskflow.project-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(65, 88, 208, 0.03) 0%, rgba(200, 80, 192, 0.03) 100%);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+#taskflow .container {
+  position: relative;
+  z-index: 1;
+}
+
+#taskflow .project-content {
+  padding-right: 40px;
+}
+
+#taskflow .project-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #4158D0 0%, #C850C0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+#taskflow .project-description {
+  font-size: 1.1rem;
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Feature Tags */
+#taskflow .feature-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+#taskflow .feature-tag {
+  background: white;
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #4158D0;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  transition: all 0.2s ease;
+}
+
+#taskflow .feature-tag:hover {
+  background: linear-gradient(135deg, #4158D0 0%, #C850C0 100%);
+  color: white;
+  border-color: transparent;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(65, 88, 208, 0.2);
+}
+
+#taskflow .project-link {
+  display: inline-block;
+  background: linear-gradient(135deg, #4158D0 0%, #C850C0 100%);
+  color: white;
+  padding: 14px 32px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 8px 20px rgba(65, 88, 208, 0.3);
+  letter-spacing: 0.3px;
+}
+
+#taskflow .project-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(65, 88, 208, 0.4);
+}
+
+#taskflow .project-link:active {
+  transform: translateY(0);
+}
+
+/* Screens Container */
+#taskflow .screens-container {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  height: 380px;
+  position: relative;
+  perspective: 1000px;
+}
+
+#taskflow .screen-item {
+  width: 200px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.1));
+}
+
+#taskflow .screen-item:hover {
+  transform: translateY(-10px) scale(1.02);
+  filter: drop-shadow(0 20px 25px rgba(65, 88, 208, 0.2));
+}
+
+#taskflow .screen-frame {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 3px solid white;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Add a subtle gradient overlay */
+#taskflow .screen-frame::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(65, 88, 208, 0.1) 0%, rgba(200, 80, 192, 0.1) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+#taskflow .screen-item:hover .screen-frame::after {
+  opacity: 1;
+}
+
+#taskflow .screen-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+#taskflow .screen-item:hover .screen-frame img {
+  transform: scale(1.05);
+}
+
+/* Stagger the screens with different heights and positions */
+#taskflow .screen-item:nth-child(1) {
+  margin-top: 30px;
+  height: 300px;
+  transform: rotate(-2deg);
+}
+
+#taskflow .screen-item:nth-child(2) {
+  margin-top: 10px;
+  height: 340px;
+  transform: rotate(1deg);
+  z-index: 2;
+}
+
+#taskflow .screen-item:nth-child(3) {
+  margin-top: 45px;
+  height: 280px;
+  transform: rotate(3deg);
+}
+
+#taskflow .screen-item:nth-child(1):hover,
+#taskflow .screen-item:nth-child(2):hover,
+#taskflow .screen-item:nth-child(3):hover {
+  transform: translateY(-15px) scale(1.03) rotate(0deg);
+  z-index: 10;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  #taskflow .screens-container {
+    height: 340px;
+  }
+  
+  #taskflow .screen-item {
+    width: 180px;
+  }
+  
+  #taskflow .screen-item:nth-child(1) { height: 270px; }
+  #taskflow .screen-item:nth-child(2) { height: 310px; }
+  #taskflow .screen-item:nth-child(3) { height: 250px; }
+}
+
+@media (max-width: 992px) {
+  #taskflow .project-content {
+    padding-right: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  #taskflow .feature-tags {
+    justify-content: center;
+  }
+  
+  #taskflow .screens-container {
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 25px;
+    perspective: none;
+  }
+  
+  #taskflow .screen-item {
+    width: 220px;
+    height: 380px;
+    transform: none !important;
+    margin-top: 0 !important;
+  }
+  
+  #taskflow .screen-item:nth-child(1),
+  #taskflow .screen-item:nth-child(2),
+  #taskflow .screen-item:nth-child(3) {
+    height: 380px;
+    margin-top: 0;
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #taskflow.project-section {
+    padding: 60px 0;
+  }
+  
+  #taskflow .project-title {
+    font-size: 2.2rem;
+  }
+  
+  #taskflow .project-description {
+    font-size: 1rem;
+  }
+  
+  #taskflow .screens-container {
+    gap: 20px;
+  }
+  
+  #taskflow .screen-item {
+    width: 200px;
+    height: 350px;
+  }
+  
+  #taskflow .screen-item:nth-child(1),
+  #taskflow .screen-item:nth-child(2),
+  #taskflow .screen-item:nth-child(3) {
+    height: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  #taskflow .screens-container {
+    gap: 15px;
+  }
+  
+  #taskflow .screen-item {
+    width: 160px;
+    height: 300px;
+  }
+  
+  #taskflow .screen-item:nth-child(1),
+  #taskflow .screen-item:nth-child(2),
+  #taskflow .screen-item:nth-child(3) {
+    height: 300px;
+  }
+  
+  #taskflow .project-link {
+    padding: 12px 28px;
+    font-size: 0.95rem;
+  }
+  
+  #taskflow .feature-tag {
+    padding: 5px 12px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Animation for entrance */
+@media (prefers-reduced-motion: no-preference) {
+  #taskflow .screen-item {
+    animation: floatIn 0.6s ease-out backwards;
+  }
+  
+  #taskflow .screen-item:nth-child(1) { animation-delay: 0.1s; }
+  #taskflow .screen-item:nth-child(2) { animation-delay: 0.2s; }
+  #taskflow .screen-item:nth-child(3) { animation-delay: 0.3s; }
+  
+  @keyframes floatIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+</style>
+
 <!-- Curl Coast Salon Section -->
 <section id="curl-coast-salon" class="project-section section">
 
@@ -1488,8 +1866,9 @@ document.addEventListener('DOMContentLoaded', function() {
             A responsive salon booking interface that allows users to select services, choose appointment dates and times, and confirm bookings. Built with Vanilla JavaScript to handle dynamic UI updates and state management.
           </p>
 
-          <a href="#" target="_blank" class="project-link">
-            View Live Demo
+          <!-- GitHub Link -->
+          <a href="https://github.com/Enhlekhoza/curl-coast-salon-" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
           </a>
 
         </div>
@@ -1501,19 +1880,19 @@ document.addEventListener('DOMContentLoaded', function() {
           
           <div class="screen-item" data-aos="fade-left" data-aos-delay="100">
             <div class="screen-frame">
-              <img src="assets/img/app/screen1.png" alt="Service Selection Screen">
+              <img src="assets/img/salon/1.png" alt="Service Selection Screen">
             </div>
           </div>
 
           <div class="screen-item" data-aos="fade-left" data-aos-delay="150">
             <div class="screen-frame">
-              <img src="assets/img/app/screen2.png" alt="Appointment Booking Screen">
+              <img src="assets/img/salon/2.png" alt="Appointment Booking Screen">
             </div>
           </div>
 
           <div class="screen-item" data-aos="fade-left" data-aos-delay="200">
             <div class="screen-frame">
-              <img src="assets/img/app/screen3.png" alt="Booking Confirmation Screen">
+              <img src="assets/img/salon/3.png" alt="Booking Confirmation Screen">
             </div>
           </div>
 
@@ -1528,7 +1907,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <style>
 #curl-coast-salon.project-section {
-  padding: 60px 0;
+  padding: 80px 0;
   background: #f9f3e7; /* Cream Beige */
 }
 
@@ -1537,74 +1916,80 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 #curl-coast-salon .project-title {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #4f3529; /* Mocha Brown */
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   line-height: 1.2;
 }
 
 #curl-coast-salon .project-description {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #4f3529; /* Mocha Brown */
-  line-height: 1.6;
-  margin-bottom: 25px;
+  line-height: 1.7;
+  margin-bottom: 30px;
   opacity: 0.8;
 }
 
 #curl-coast-salon .project-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   background: #b87b5d; /* Soft Terracotta */
   color: #f9f3e7; /* Cream Beige */
-  padding: 12px 24px;
-  border-radius: 30px;
+  padding: 14px 28px;
+  border-radius: 40px;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 0.95rem;
+  font-weight: 600;
+  font-size: 1rem;
   transition: all 0.3s ease;
   border: 1px solid #b87b5d;
   letter-spacing: 0.5px;
+}
+
+#curl-coast-salon .project-link i {
+  font-size: 1.2rem;
 }
 
 #curl-coast-salon .project-link:hover {
   background: #4f3529; /* Mocha Brown */
   border-color: #4f3529;
   color: #f9f3e7;
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(79, 53, 41, 0.2);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(79, 53, 41, 0.25);
 }
 
-/* Screens Container - Compact Layout */
+/* Screens Container - Larger screens */
 #curl-coast-salon .screens-container {
   display: flex;
-  gap: 15px;
+  gap: 25px;
   justify-content: flex-end;
-  height: 320px;
+  height: 420px;
   position: relative;
 }
 
 #curl-coast-salon .screen-item {
-  width: 180px;
-  transition: transform 0.3s ease;
+  width: 240px;
+  transition: transform 0.4s ease;
 }
 
 #curl-coast-salon .screen-item:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
 }
 
 #curl-coast-salon .screen-frame {
   width: 100%;
   height: 100%;
   background: #ecd7c7; /* Blush Sand */
-  border-radius: 20px;
+  border-radius: 30px;
   overflow: hidden;
-  border: 1px solid #ffe9d6; /* Peach Nude */
-  box-shadow: 0 5px 15px rgba(184, 123, 93, 0.15);
-  transition: all 0.3s ease;
+  border: 2px solid #ffe9d6; /* Peach Nude */
+  box-shadow: 0 8px 20px rgba(184, 123, 93, 0.2);
+  transition: all 0.4s ease;
 }
 
 #curl-coast-salon .screen-item:hover .screen-frame {
-  box-shadow: 0 10px 25px rgba(184, 123, 93, 0.25);
+  box-shadow: 0 15px 35px rgba(184, 123, 93, 0.3);
 }
 
 #curl-coast-salon .screen-frame img {
@@ -1614,27 +1999,50 @@ document.addEventListener('DOMContentLoaded', function() {
   display: block;
 }
 
-/* Stagger the screens */
+/* Stagger the screens - increased sizes */
 #curl-coast-salon .screen-item:nth-child(1) {
-  margin-top: 20px;
-  height: 280px;
+  margin-top: 30px;
+  height: 360px;
 }
 
 #curl-coast-salon .screen-item:nth-child(2) {
-  margin-top: 40px;
-  height: 300px;
+  margin-top: 55px;
+  height: 390px;
 }
 
 #curl-coast-salon .screen-item:nth-child(3) {
-  margin-top: 10px;
-  height: 290px;
+  margin-top: 15px;
+  height: 375px;
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+  #curl-coast-salon .screens-container {
+    height: 380px;
+    gap: 20px;
+  }
+  
+  #curl-coast-salon .screen-item {
+    width: 210px;
+  }
+  
+  #curl-coast-salon .screen-item:nth-child(1) {
+    height: 320px;
+  }
+  
+  #curl-coast-salon .screen-item:nth-child(2) {
+    height: 350px;
+  }
+  
+  #curl-coast-salon .screen-item:nth-child(3) {
+    height: 335px;
+  }
+}
+
 @media (max-width: 992px) {
   #curl-coast-salon .project-content {
     padding-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: center;
   }
   
@@ -1642,72 +2050,73 @@ document.addEventListener('DOMContentLoaded', function() {
     justify-content: center;
     height: auto;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
   }
   
   #curl-coast-salon .screen-item {
-    width: 200px;
-    height: 350px;
+    width: 260px;
+    height: 450px;
   }
   
   #curl-coast-salon .screen-item:nth-child(1),
   #curl-coast-salon .screen-item:nth-child(2),
   #curl-coast-salon .screen-item:nth-child(3) {
     margin-top: 0;
-    height: 350px;
+    height: 450px;
   }
 }
 
 @media (max-width: 768px) {
   #curl-coast-salon.project-section {
-    padding: 50px 0;
+    padding: 60px 0;
   }
   
   #curl-coast-salon .project-title {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
   
   #curl-coast-salon .project-description {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   
+  #curl-coast-salon .screens-container {
+    gap: 20px;
+  }
+  
+  #curl-coast-salon .screen-item {
+    width: 220px;
+    height: 400px;
+  }
+  
+  #curl-coast-salon .screen-item:nth-child(1),
+  #curl-coast-salon .screen-item:nth-child(2),
+  #curl-coast-salon .screen-item:nth-child(3) {
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
   #curl-coast-salon .screens-container {
     gap: 15px;
   }
   
   #curl-coast-salon .screen-item {
     width: 180px;
-    height: 320px;
+    height: 340px;
   }
   
   #curl-coast-salon .screen-item:nth-child(1),
   #curl-coast-salon .screen-item:nth-child(2),
   #curl-coast-salon .screen-item:nth-child(3) {
-    height: 320px;
-  }
-}
-
-@media (max-width: 576px) {
-  #curl-coast-salon .screens-container {
-    gap: 12px;
-  }
-  
-  #curl-coast-salon .screen-item {
-    width: 150px;
-    height: 280px;
-  }
-  
-  #curl-coast-salon .screen-item:nth-child(1),
-  #curl-coast-salon .screen-item:nth-child(2),
-  #curl-coast-salon .screen-item:nth-child(3) {
-    height: 280px;
+    height: 340px;
   }
   
   #curl-coast-salon .project-link {
-    padding: 10px 20px;
-    font-size: 0.9rem;
+    padding: 12px 24px;
+    font-size: 0.95rem;
   }
 }
+
 </style>
 
 <!-- SupplyGuard Project Section -->
