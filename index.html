@@ -545,7 +545,7 @@
                 <div class="timeline-content ms-4">
                   <div class="d-flex justify-content-between align-items-start mb-2">
                     <h5 class="mb-0">Full Stack Developer</h5>
-                    <span class="badge timeline-badge">2024 – Jan 2026</span>
+                    <span class="badge timeline-badge"> May 2024 – Feb 2026</span>
                   </div>
                   <p class="text-muted mb-2"><em>Siyakha Consulting</em></p>
                   <p class="mb-0">Developed and maintained scalable web applications and websites using PHP and Laravel. Managed MySQL databases and optimized platforms for performance, security, and user experience.</p>
@@ -565,7 +565,7 @@
                 <div class="timeline-content ms-4">
                   <div class="d-flex justify-content-between align-items-start mb-2">
                     <h5 class="mb-0">Social Media Manager</h5>
-                    <span class="badge timeline-badge">2020 – 2021</span>
+                    <span class="badge timeline-badge">July 2022 – Oct 2023</span>
                   </div>
                   <p class="text-muted mb-2"><em>Pathfynder Mental Health</em></p>
                   <p class="mb-0">Created engaging social media campaigns and managed digital content. Combined video editing and graphic design skills to produce compelling content.</p>
@@ -584,7 +584,7 @@
                 <div class="timeline-content ms-4">
                   <div class="d-flex justify-content-between align-items-start mb-2">
                     <h5 class="mb-0">Educator Assistant</h5>
-                    <span class="badge timeline-badge">2021 – 2022</span>
+                    <span class="badge timeline-badge"> Nov 2021 – May 2022 </span>
                   </div>
                   <p class="text-muted mb-2"><em>Klopperpark Primary School</em></p>
                   <p class="mb-0">Supported digital learning initiatives and managed tablet-based educational platforms. Used creative skills to enhance student engagement.</p>
@@ -1470,8 +1470,6 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 </style>
 
-
-
 <!-- Task Flow Project Section -->
 <section id="taskflow" class="project-section section">
 
@@ -1749,13 +1747,13 @@ document.addEventListener('DOMContentLoaded', function() {
     justify-content: center;
     height: auto;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 30px;
     perspective: none;
   }
   
   #taskflow .screen-item {
-    width: 220px;
-    height: 380px;
+    width: 280px;
+    height: 480px;
     transform: none !important;
     margin-top: 0 !important;
   }
@@ -1763,7 +1761,7 @@ document.addEventListener('DOMContentLoaded', function() {
   #taskflow .screen-item:nth-child(1),
   #taskflow .screen-item:nth-child(2),
   #taskflow .screen-item:nth-child(3) {
-    height: 380px;
+    height: 480px;
     margin-top: 0;
     transform: none;
   }
@@ -1783,45 +1781,59 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   #taskflow .screens-container {
-    gap: 20px;
+    gap: 25px;
   }
   
   #taskflow .screen-item {
-    width: 200px;
-    height: 350px;
+    width: 260px;
+    height: 450px;
   }
   
   #taskflow .screen-item:nth-child(1),
   #taskflow .screen-item:nth-child(2),
   #taskflow .screen-item:nth-child(3) {
-    height: 350px;
+    height: 450px;
   }
 }
 
 @media (max-width: 576px) {
   #taskflow .screens-container {
-    gap: 15px;
+    gap: 20px;
   }
   
   #taskflow .screen-item {
-    width: 160px;
-    height: 300px;
+    width: 220px;
+    height: 400px;
   }
   
   #taskflow .screen-item:nth-child(1),
   #taskflow .screen-item:nth-child(2),
   #taskflow .screen-item:nth-child(3) {
-    height: 300px;
+    height: 400px;
   }
   
   #taskflow .project-link {
-    padding: 12px 28px;
-    font-size: 0.95rem;
+    padding: 14px 30px;
+    font-size: 1rem;
   }
   
   #taskflow .feature-tag {
-    padding: 5px 12px;
-    font-size: 0.8rem;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 400px) {
+  #taskflow .screen-item {
+    width: 190px;
+    height: 350px;
+  }
+  
+  #taskflow .screen-item:nth-child(1),
+  #taskflow .screen-item:nth-child(2),
+  #taskflow .screen-item:nth-child(3) {
+    height: 350px;
   }
 }
 
